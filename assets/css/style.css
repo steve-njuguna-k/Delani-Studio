@@ -129,3 +129,29 @@ h2{
     padding-bottom: 50px;
     background-color: #f7f7f7;
 }
+
+.col-sm-4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card{
+    background-color: transparent;
+    border-color: transparent;
+    height: 50%;
+}
+
+.card-body{
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.card-icon{
+    margin-bottom: 15px;
+}
+
+.card-title{
+    font-weight: 900;
+    color: #777;
+}
