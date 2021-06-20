@@ -360,8 +360,32 @@
                         <p>Let's partner today and make your ideas a reality</p>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <form id="contact-form" name="myForm" class="form" role="form">
+                            <div class="form-group">
+                                <label class="form-label" id="nameLabel"></label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" id="emailLabel"></label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" id="subjectLabel"></label>
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" id="messageLabel"></label>
+                                <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" required></textarea>                                 
+                            </div>
+                            <div class="text-center margin-top-25">
+                                <button type="submit" class="btn btn-mod btn-border btn-large" id="formSubmit" onclick="sendMessage()" value="Submit">Send Message</button>
+                            </div>
+                        </form><!-- End form -->                        
+                    </div><!-- End col -->
+                </div><!-- End row -->
             </div>
-            
         </div>
 
 
