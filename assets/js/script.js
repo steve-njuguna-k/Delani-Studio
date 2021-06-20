@@ -1,0 +1,31 @@
+$(document).ready(function(){
+    $(".service-description-1, .service-description-2, .service-description-3, .service-description-4, .service-description-5, .service-description-6, .service-description-7, .service-description-8, .service-description-9").hide();
+    //Services Toggle
+    $("#service-1").click(function(){
+        $(".service-description-1").slideToggle("slow");
+    });
+    $("#service-2").click(function(){
+        $(".service-description-2").slideToggle("slow");
+    });
+    $("#service-3").click(function(){
+        $(".service-description-3").slideToggle("slow");
+    });
+    $("#service-4").click(function(){
+        $(".service-description-4").slideToggle("slow");
+    });
+    $("#service-5").click(function(){
+        $(".service-description-5").slideToggle("slow");
+    });
+    $("#service-6").click(function(){
+        $(".service-description-6").slideToggle("slow");
+    });
+    $("#service-7").click(function(){
+        $(".service-description-7").slideToggle("slow");
+    });
+    $("#service-8").click(function(){
+        $(".service-description-8").slideToggle("slow");
+    });
+    $("#service-9").click(function(){
+        $(".service-description-9").slideToggle("slow");
+    });
+});
