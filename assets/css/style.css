@@ -123,3 +123,9 @@ h2{
 .grayscale:hover{
     filter: grayscale(0%);
 }
+
+.section-2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f7f7f7;
+}
