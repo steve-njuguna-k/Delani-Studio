@@ -29,3 +29,23 @@ $(document).ready(function(){
         $(".service-description-9").slideToggle("slow");
     });
 });
+
+let form = document.getElementById("formSubmit").addEventListener("click", function(e){
+    e.preventDefault();
+});
+
+function sendMessage(){
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let subject = document.getElementById("subject").value;
+    let message = document.getElementById("message").value;
+
+    if(name == '' || email == '' || subject == '' || message == ''){
+        alert("Please Fill In ALL The Fields!");
+    }
+    else{
+        alert("Thank you " + name + " for your inquiry." + "\n" + "DevCORE has received your message. Thank you for reaching out to us.");
+    }
+
+    document.getElementById("contact-form").reset();
+}
