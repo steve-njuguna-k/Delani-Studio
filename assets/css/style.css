@@ -102,3 +102,9 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.section-1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
