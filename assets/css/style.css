@@ -199,47 +199,35 @@ h2{
 .col-xs-12.col-sm-12.col-md-12.col-lg-12 {
     padding: 0 20% 0 20%;
 }
-    
-.margin-top-25 {
-    margin-top: 25px;
-}
-    
-.form-title {
-    padding: 25px;
-    font-size: 30px;
-    font-weight: 300;
-}
-    
-.form-group .form-control {
+      
+.mc-field-group .form-control {
     border-bottom: 1px;
     border-style: none none solid none;
     border-radius:0; 
     border-color: #000;
+    margin-bottom: 20px;
 }
-    
-.form-group .form-control:focus {
+      
+.mc-field-group .form-control:focus {
     box-shadow: none;
     border-width: 0 0 2px 0;
-    border-color: #000;  
+    border-color: #000;
+    margin-bottom: 20px;
 }
-    
-textarea {
-    resize: none;
-}
-    
-.btn-mod.btn-large {
+  
+.button.btn-large {
     height: auto;
     padding: 13px 52px;
     font-size: 15px;
 }
-    
-.btn-mod.btn-border {
+      
+.button.btn-border {
     color: #000;
     border: 1px solid #000;
     background: transparent;
 }
-    
-.btn-mod, a.btn-mod {
+      
+.button, a.button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -264,20 +252,20 @@ textarea {
     -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
-    
-.btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
+      
+.button.btn-border:hover, .button.btn-border:active, .button.btn-border:focus, .button.btn-border:active:focus {
     color: #fff;
     border-color: #000;
     background: #000;
     outline: none;
 }
-    
+      
 @media only screen and (max-width: 500px) {
-    .btn-mod.btn-large {
+    .button.btn-large {
         padding: 6px 16px;
         font-size: 11px;
     }
-      
+        
     .form-title {
         font-size: 20px;
     }
